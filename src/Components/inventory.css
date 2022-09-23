@@ -1,0 +1,164 @@
+.main {
+  border: 1px solid #ecf1f4;
+  border-radius: 4px;
+}
+.inventory-container {
+  padding: 35px;
+}
+.inventory-container > h3 {
+  font-size: 16px;
+  text-align: left;
+  color: #262730;
+}
+.inventory-container > table {
+  text-align: left;
+  border-top: 1px solid #ecf1f4;
+}
+.inventory-container > table > thead > tr > th {
+  padding: 5px 21px;
+}
+.inventory-input {
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+}
+.inventory-input[type="checkbox"] {
+  accent-color: #ef4859;
+}
+.inventory-table-row {
+  border-top: 1px solid #ecf1f4;
+  border-bottom: 1px solid #ecf1f4;
+}
+.inventory-table-row > td {
+  padding: 5px 21px;
+  font-size: 14px;
+  font-size: 14px;
+  color: #8c8ca1;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.inventory-table-row > td > div {
+  display: flex;
+}
+.inventory-table-row > td > div > img {
+  height: 48px;
+  width: 48px;
+  background-color: lightgray;
+  margin-right: 25px;
+}
+.inventory-table-row > td > div > div > h3 {
+  font-size: 16px;
+  color: #262730;
+  letter-spacing: 1px;
+}
+.inventory-table-row > td > div > div > p {
+  line-height: 5px;
+}
+.rating > p {
+  background-color: #f4f7ff;
+  color: #485572;
+  font-weight: 500;
+  margin-right: 20px;
+  padding: 2px 10px;
+  margin-top: 14px;
+  height: 24px;
+}
+.price {
+  color: #262730;
+  font-weight: 500;
+}
+
+/* here is inventoryDetails css */
+
+.main2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 68px;
+}
+.main2 > div {
+  display: flex;
+  text-align: left;
+  font-size: 14px;
+  padding: 15px;
+}
+.main3 {
+  justify-content: space-between;
+}
+.main2 > div > div > h5 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.main2 > div > p {
+  margin-top: 25px;
+}
+.main4 {
+  justify-content: right;
+  text-align: center;
+  gap: 30px;
+}
+.main4 > a {
+  margin-top: 10px;
+  color: #ef4859;
+  font-weight: 550;
+}
+.main4 > svg {
+  margin-top: 15px;
+}
+
+.main6 {
+  display: flex;
+}
+.main8 {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  margin-left: 80px;
+  gap: 10px;
+}
+.main8 > div > h4 {
+  font-size: 16px;
+  text-align: left;
+}
+.main8 > div > p {
+  font-size: 14px;
+  background-color: #f4f7ff;
+  color: #485572;
+  font-weight: 500;
+  padding: 2px 10px;
+  text-align: center;
+  width: 70px;
+}
+.main7 > div > p {
+  font-size: 14px;
+  background-color: #fff2ee;
+  color: #811434;
+  font-weight: 500;
+  padding: 2px 10px;
+  text-align: center;
+  width: 90px;
+}
+.main7 > div > h4 {
+  font-size: 16px;
+  text-align: left;
+}
+.main7 {
+  display: flex;
+  margin-left: 50px;
+}
+.main7 > div {
+  width: 150px;
+}
+.rat {
+  margin-left: 80px;
+  text-align: left;
+}
+.sto {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.inventory-tbody > tr:nth-child(3) h3 {
+  color: #ef4859;
+}
+/* .inventory-tbody > tr:nth-child(2) input[type="checkbox"]:checked {
+  accent-color: gray;
+} */

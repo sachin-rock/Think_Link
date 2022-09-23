@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat&display=swap");
+
+.box {
+  background-color: #811434;
+}
+.cor {
+  color: #fbe1d0;
+}
+.Navbar1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  background-color: #811434;
+}
+.Navbar1 > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+}
+.Navbar2 {
+  justify-content: space-between;
+}
+.Navbar2 > h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #fbe1d0;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  font-family: "Montserrat", sans-serif;
+}
+.Navbar2 > h3 svg {
+  text-align: center;
+}
+.Navbar3 {
+  background-color: white;
+  border-radius: 5px;
+  height: 32px;
+  width: 354px;
+  display: flex;
+  padding: 0px 15px;
+  align-items: center;
+}
+.Navbar3 > input {
+  border: none;
+  width: 270px;
+  height: 20px;
+  margin-left: 12px;
+  outline: none;
+}
+
+.Navbar3 > svg {
+  color: gray;
+}
+.Navbar4 {
+  justify-content: right;
+  gap: 25px;
+}
+.Navbar5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 15px;
+}
+.Navbar5 > h3 {
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.Navbar5 > svg {
+  font-weight: 500;
+}
+.Navbar5 > img {
+  border: 2px solid white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
